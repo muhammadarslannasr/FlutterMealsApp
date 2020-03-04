@@ -7,7 +7,6 @@ class CategoryMealsScreen extends StatefulWidget {
 
   final List<Meal> availableMeals;
 
-
   CategoryMealsScreen(this.availableMeals);
 
   @override
@@ -57,12 +56,12 @@ class _CategoryMealsScreenState extends State<CategoryMealsScreen> {
             scrollDirection: Axis.vertical,
             itemBuilder: (ctx, index) {
               return MealItem(
-                  id: displayedMeals[index].id,
-                  title: displayedMeals[index].title,
-                  imageUrl: displayedMeals[index].imageUrl,
-                  duration: displayedMeals[index].duration,
-                  complexity: displayedMeals[index].complexity,
-                  affordability: displayedMeals[index].affordability,
+                id: displayedMeals[index].id,
+                title: displayedMeals[index].title,
+                imageUrl: displayedMeals[index].imageUrl,
+                duration: displayedMeals[index].duration,
+                complexity: displayedMeals[index].complexity,
+                affordability: displayedMeals[index].affordability,
               );
             }));
   }
