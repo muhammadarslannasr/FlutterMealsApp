@@ -46,7 +46,7 @@ class _FilterScreenState extends State<FilterScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Filter Page'),
+        title: Text('Filter Recipes'),
         actions: <Widget>[
           IconButton(
               icon: Icon(Icons.save),
